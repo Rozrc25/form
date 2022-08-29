@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Cacofa.co.in</title>
+</head>
+<body>
+<h1 style="font-size : 50px">Regestration form for Cacofa</h1>
+
+<hr />
+<h3 style="font-size : 30px">Fill the details which is asked</h3>
+
+<form action="#">
+<fieldset>
+ <em><legend align=center>Personal Details</legend> </em>
+<p align="center">
+<lable>First name : <input name="FirstName"/></lable>
+</p>
+<p align="center">
+<lable>Second name : <input name="SecondName" /></lable>
+</p>
+
+<p align="center">
+Gender :
+<lable><input type="radio" name="gender" value="male" /> Male</lable>
+<lable><input type="radio" name="gender" value="female" />Female</lable>
+</p>
+
+<p align="center">
+<lable>Email : <input type="email" name="email" /></lable>
+</p>
+
+<p align="center">
+<lable>DOB : <input type="date" name="birthday"/></lable>
+</p>
+
+<p align="center">
+<lable>Address: <br> <textarea name="address" cols="30" row="3"></textarea></lable>
+</p>
+
+<p align="center">
+<button type="submit">Submit</button>
+</p>
+
+</fieldset>
+</form>
+</body>
+</html>
